@@ -1,7 +1,5 @@
 # ARM Cortex M4/M7 optimized memory operations
 
-This library contains optimized version of memcpy, memset and memcmp using FPU registers. It is applicable for Cortex M4 and Cortex M7 MCU's.
-
 ## Implementation Description:
 This assembly code implements optimized versions of the `memcmp`, `memset`, and `memcpy` functions for the ARM architecture, utilizing the ARMv7-M architecture with VFPv2 floating-point support. It's applicable for Cortex M4 and Cortex M7 MCU's. These functions are commonly used for memory comparison, setting, and copying, respectively, and the use of VFP instructions enhances performance.
 
